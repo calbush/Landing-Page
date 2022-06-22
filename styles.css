@@ -2,7 +2,12 @@
     border-style: solid
 }
 
-img {
+.large {
     width: 350px;
+    height: auto;
+}
+
+.small {
+    width: 100px;
     height: auto;
 }
