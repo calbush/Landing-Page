@@ -1,6 +1,3 @@
- {
-    border-style: solid
-}
 
 .large {
     width: 350px;
@@ -24,7 +21,6 @@ body {
 .bigcontainer1 {
     display: flex;
     flex-direction: column;
-    align-items: flex-sta;
     padding-bottom: 32px;
     gap: 32px;
 }
@@ -38,6 +34,7 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
 .content {
@@ -83,3 +80,116 @@ h3 {
 .contenttext, a, .signup1 {
     color: #e5e7eb;
 }
+
+/*------------ PART 2 -------------*/
+
+.bigcontainer2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardtainer {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 62px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 135px;
+    text-align: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.small {
+    width: 135px;
+    height: auto;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #3882f6;
+    border-width: 3px;
+}
+
+.infoheader {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 800;
+    text-align: center;
+    padding: 32px;
+}
+
+
+/*------------PART 3---------------*/
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    background-color: #e5e7eb;
+    align-items: center;
+}
+
+.quoteandauthor {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    width: 700px;
+    align-self: center;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+.lastcontainer {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+}
+
+.infobar {
+    display: flex;
+    padding: 36px 96px;
+    border-radius: 6px;
+    gap: 64px;
+    background-color: #3882f6;
+    align-items: center;
+}
+
+.signup2 {
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    padding: 4px 24px;
+    border-radius: 6px;
+}
+
+.text {
+    color: #f9faf8;
+}
+
+.infobarheader {
+    font-size: 20px;
+}
+
+.infobartext {
+    font-size: 12px;
+}
+
+
+.footer {
+    padding: 32px;
+    text-align: center;
+    color: #f9faf8;
+}
+
